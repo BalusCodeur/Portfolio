@@ -1,12 +1,5 @@
-export interface Project {
-  title: string;
-  description: string;
-  longDescription: string;
-  image: string;
-  slug: string;
-  tags: string[];
-  link?: string;
-}
+import { Project } from "@/types/project";
+
 export const projects: Project[] = [
   {
     title: "BougeTonUQAC",
@@ -17,7 +10,7 @@ export const projects: Project[] = [
     tags: ["Java", "Android Studio", "Firebase"],
     longDescription:
       "Application mobile pour partager des activités pour les nouveaux arrivants a l’UQAC.\nCréation de groupes de discussion et carte interactive.",
-    link: "https://github.com/GalaxiGames23/BougeTonUqac",
+    githubUrl: "https://github.com/GalaxiGames23/BougeTonUqac",
   },
   {
     title: "FaisCroquer",
@@ -37,7 +30,7 @@ export const projects: Project[] = [
     tags: ["Flutter", "Dart", "Firebase"],
     longDescription:
       "Jeu mobile sur le thème de la célèbre série Squid Game comportant plusieurs mini jeux choisis aléatoirement pour mettre en compétition deux utilisateurs connectes en wifi.",
-    link: "https://github.com/BalusCodeur/PoulpeJeu",
+    githubUrl: "https://github.com/BalusCodeur/PoulpeJeu",
   },
   {
     title: "Prototype Réfrigérateur Connecté",
@@ -58,6 +51,6 @@ export const projects: Project[] = [
     tags: ["HTML", "CSS", "Javascript"],
     longDescription:
       "Extension Web permettant d’analyser les téléchargements effectues sur le navigateur de l’utilisateur et détecter les fichiers dangereux.",
-    link: "https://github.com/Kali-ki/Banshy_",
+    githubUrl: "https://github.com/Kali-ki/Banshy_",
   },
 ];

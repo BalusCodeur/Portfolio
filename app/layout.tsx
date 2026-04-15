@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lora.variable} ${dmSans.variable} antialiased app-wrapper`}
+        className={`${lora.variable} ${dmSans.variable} antialiased app-wrapper bg-cream`}
       >
         <main className="max-w-6xl mx-auto px-1 ">{children}</main>
       </body>

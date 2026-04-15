@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { projects } from "../../data/projects";
+import { projects } from "../../../data/projects";
 
 export default async function ProjetPage({
   params,
